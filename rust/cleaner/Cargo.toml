@@ -1,0 +1,9 @@
+[package]
+name = "cleaner"
+version = "0.1.0"
+authors = ["psychoss <626377748@qq.com>"]
+
+[dependencies]
+[[bin]]
+name = "cleaner"
+path="src/lib.rs"
