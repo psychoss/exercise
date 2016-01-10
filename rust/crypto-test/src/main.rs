@@ -104,31 +104,8 @@ fn decrypt(encrypted_data: &[u8],
 }
 
 fn main() {
-    let message = r#"|Where|Name|Password|
-|---|---|---|
-|Evernote|yinxiangpsycho@qq.com|640916aa|
-|Github|626377748@qq.com|640916aa|
-|Opera|626377748@qq.com|640916|
-|QQ|626377748|640916aa|
-||1602030365|pickup123|
-||240802111|pickup240802|
-|Safari Online|asdsadsadas1|pickup123|
-|阿里云|1602030365@qq.com|640916aa|
-|百度网盘|psycho-a|640916a|
-||psychochou|640916a|
-||psychochou@163.com|psychochou123|
-|必应|psychochouxz@hotmail.com|640916aa|
-|京东|13412932645|640916a|
-|手机|18312547401||
-||13412932645||
-|淘宝|psycho_euphoria|640917a|
-||13422954076|640916a|
-|知乎|QQ 1445747555|640916aa|
-|Ubuntu||640916|"#;
+    let message = r#""#;
 
-    let key: [u8; 32] = [108, 195, 6, 208, 41, 196, 239, 205, 83, 4, 190, 37, 28, 15, 208, 248,
-                         227, 16, 166, 78, 228, 153, 241, 41, 36, 236, 168, 29, 199, 178, 126, 92];
-    let iv: [u8; 16] = [218, 132, 27, 69, 146, 121, 1, 217, 113, 203, 109, 147, 92, 31, 215, 202];
 
   //  let encrypted = [37, 228, 107, 54, 145, 252, 179, 80, 66, 245, 202, 185, 219, 91, 250, 186];
 
