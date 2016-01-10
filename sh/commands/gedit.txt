@@ -1,0 +1,20 @@
+Usage:
+  gedit [OPTION...] [FILE...] [+LINE[:COLUMN]] - Edit text files
+
+Help Options:
+  -h, --help                        Show help options
+  --help-all                        Show all help options
+  --help-gtk                        Show GTK+ Options
+
+Application Options:
+  -?, --help                        Show the application's help
+  -V, --version                     Show the application's version
+  --list-encodings                  Display list of possible values for the encoding option
+  --encoding=ENCODING               Set the character encoding to be used to open the files listed on the command line
+  --new-window                      Create a new top-level window in an existing instance of gedit
+  --new-document                    Create a new document in an existing instance of gedit
+  -g, --geometry=GEOMETRY           Set the size and position of the window (WIDTHxHEIGHT+X+Y)
+  -w, --wait                        Open files and block process until files are closed
+  -s, --standalone                  Run gedit in standalone mode
+  --display=DISPLAY                 X display to use
+
